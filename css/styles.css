@@ -146,6 +146,14 @@
   color: var(--white);
   background-color: var(--dark-gray-blue);
   margin: 20px 0;
+  cursor: pointer;
+}
+
+.button__continue:hover {
+  background-image: linear-gradient(
+    var(--gradient-light-slate-blue),
+    var(--light-royal-blue)
+  );
 }
 
 @media (min-width: 720px) {
